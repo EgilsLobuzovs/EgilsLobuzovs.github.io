@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;
+    overflow: hidden;
+    background-color: #822B18;
+	border-bottom: 1px solid black;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family:Helvetica;
+}
+li a:hover:not(.active) {
+    background-color: darkgreen;
+}
+.active {
+    background-color: #4CAF50;
+}
+#wrapper{
+	width:960px;
+    margin:0 auto; 
+}
+#container{
+	background-color:lightgray;
+	font-family:Arial;
+}
+#raksts:nth-child(odd){
+	padding: 0px 10px 10px 15px;
+	width:620px;
+	background-color:lightblue;
+	text-align:justify;
+}
+#raksts:nth-child(even){
+	padding: 0px 10px 10px 15px;
+	background-color:#BBF0B9;
+	text-align:justify;
+}
+#footer{
+	height:50px;
+	background-color:#822B18;
+	padding-right:10px;
+}
+#veidotajs{
+	float:right;
+	color:white;
+	font-family:Helvetica;
+}
+img {
+	float:left;
+	border: 1px solid black;
+}
+h1 {
+	font-family:Helvetica;
+}
+#links a:link,
+#links a:visited,
+#links a:hover {
+  color: gray;
+  text-decoration: none;
+  float:right;
+  font-size:20px;
+  border:1px solid black;
+  padding:7px;
+  background-color:lightblue;
+}
+#cena{
+	color:blue;
+}
+body{
+	background-image: url("bg.png");
+}
